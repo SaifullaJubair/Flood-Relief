@@ -1,0 +1,9 @@
+body{
+      margin: 0%;
+}
+.sec1{
+      background-image: url(images/donation7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20em;
+}

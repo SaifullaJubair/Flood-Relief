@@ -1,25 +1,32 @@
 .heading-body{
-      font-family: 'Poppins', sans-serif;
       font-family: 'Roboto Slab', serif;
-      margin: 0px;
+      margin: 0%;
+     
+}
+.heading-div{
       background-image: url(images/flooddronevew.jpg);
       background-repeat: no-repeat;
-      background-size: 100% 150%;
-      background-position: center top;
+      background-size: cover;
+      padding: 5em;     
 }
 .heading-h1{
-      font-size: 70px;
+      font-size: 60px;
       text-align: center;
       color: azure;
-      text-shadow: 5px 5px 10px orange;  
+      text-shadow: 5px 5px 10px orange;
+      padding-top: 5%;
+      padding-bottom: 5px;
 }
 .heading-p{
       text-align: center;
       font-size: 30px;
       color: aliceblue;
+      padding-bottom: 2%;  
 }
 .donate-div{
-      text-align: center;    
+      text-align: center;
+      padding-top: 5px;
+      font-size: 60px;
 }
 .donate-button{
       background-image: linear-gradient(orange, tomato);
@@ -28,6 +35,52 @@
       border-radius: 5px;
       font-size: 30px;
       text-decoration: none;
-      color: white; 
-      margin-top: 20px;     
+      color: white;           
+}
+.table-sec{
+      text-align: center;
+      font-size: 30px;
+}
+#donate-today{
+      font-size: 60px;
+      padding-top: 100px;
+      text-align: center;
+}
+#sec2p-color{
+      color: gray;
+}
+
+.flex-sec{
+      display: flex;
+      text-align: center;
+      font-size: 30px;
+      padding-left: 25%;
+      padding-top: 5%;
+}
+.usd{
+      width: 10%;
+      padding: 5px;
+      margin: 15px;
+      background-color: rgb(245, 241, 241);
+      border-radius: 10px;
+}
+#reddiv{
+      background-color: rgba(255, 0, 0, 0.185);
+      border: 3px solid rgb(255, 0, 34);
+}
+form{
+      width: 50%;
+      padding-left: 40%;
+      padding-top: 3%;
+}
+hr{
+      width: 50%;
+      color: rgba(211, 211, 211, 0.678);
+}
+#amount{
+      font-size: 30px;
+      text-align: center;
+      color: rgba(128, 128, 128, 0.534);
+      border-style: none; 
+      padding: 4% 2%;
 }
